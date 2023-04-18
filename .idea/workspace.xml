@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Booking Class for booking operation">
-      <change afterPath="$PROJECT_DIR$/src/Attend.java" afterDir="false" />
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Report Class for monthly review and monthly champion review">
+      <change afterPath="$PROJECT_DIR$/src/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheWeekendFitnessClub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheWeekendFitnessClub.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,9 +39,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/amalm/IdeaProjects/TheWeekendFitnessClub",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +58,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheWeekendFitnessClub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DatabaseTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681770560005</updated>
-      <workItem from="1681770560487" duration="1366000" />
+      <workItem from="1681770560487" duration="2567000" />
+      <workItem from="1681774641004" duration="18000" />
+      <workItem from="1681817048613" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -85,11 +122,43 @@
       <option name="project" value="LOCAL" />
       <updated>1681771702178</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Attend Class for attend operations">
+      <created>1681771971230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681771971230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cancel Class for Changing and cancelling operations">
+      <created>1681772071492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681772071492</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Report Class for monthly review and monthly champion review">
+      <created>1681772284791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681772284791</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -97,6 +166,9 @@
     <MESSAGE value="TimeTable class for timetable view" />
     <MESSAGE value="Database class for database storage and other operations" />
     <MESSAGE value="Booking Class for booking operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Booking Class for booking operation" />
+    <MESSAGE value="Attend Class for attend operations" />
+    <MESSAGE value="Cancel Class for Changing and cancelling operations" />
+    <MESSAGE value="Report Class for monthly review and monthly champion review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report Class for monthly review and monthly champion review" />
   </component>
 </project>
