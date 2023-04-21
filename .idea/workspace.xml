@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="cancel class testing">
-      <change afterPath="$PROJECT_DIR$/Test/AttendTest.java" afterDir="false" />
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Attend class testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/TimeTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/TimeTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,52 +73,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AttendTest.test2attendView">
-    <configuration name="AttendTest.test1attendView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TimeTableTest">
+    <configuration name="TimeTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AttendTest" />
-      <option name="METHOD_NAME" value="test1attendView" />
+      <option name="MAIN_CLASS_NAME" value="TimeTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTableTest.test1timetableDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheWeekendFitnessClub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TimeTableTest" />
+      <option name="METHOD_NAME" value="test1timetableDay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttendTest.test2attendView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTableTest.test2timetableDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AttendTest" />
-      <option name="METHOD_NAME" value="test2attendView" />
+      <option name="MAIN_CLASS_NAME" value="TimeTableTest" />
+      <option name="METHOD_NAME" value="test2timetableDay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CancelTest.test2cancelView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTableTest.test4timetableDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CancelTest" />
-      <option name="METHOD_NAME" value="test2cancelView" />
+      <option name="MAIN_CLASS_NAME" value="TimeTableTest" />
+      <option name="METHOD_NAME" value="test4timetableDay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CancelTest.test3cancelView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTableTest.timetableClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CancelTest" />
-      <option name="METHOD_NAME" value="test3cancelView" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportTest.test2championReportView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheWeekendFitnessClub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReportTest" />
-      <option name="METHOD_NAME" value="test2championReportView" />
+      <option name="MAIN_CLASS_NAME" value="TimeTableTest" />
+      <option name="METHOD_NAME" value="timetableClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AttendTest.test2attendView" />
-        <item itemvalue="JUnit.AttendTest.test1attendView" />
-        <item itemvalue="JUnit.ReportTest.test2championReportView" />
-        <item itemvalue="JUnit.CancelTest.test2cancelView" />
-        <item itemvalue="JUnit.CancelTest.test3cancelView" />
+        <item itemvalue="JUnit.TimeTableTest" />
+        <item itemvalue="JUnit.TimeTableTest.test4timetableDay" />
+        <item itemvalue="JUnit.TimeTableTest.test1timetableDay" />
+        <item itemvalue="JUnit.TimeTableTest.timetableClass" />
+        <item itemvalue="JUnit.TimeTableTest.test2timetableDay" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="11577000" />
+      <workItem from="1682033208211" duration="14370000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682103945998</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Attend class testing">
+      <created>1682106157554</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682106157554</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +268,8 @@
     <MESSAGE value="timetable testing" />
     <MESSAGE value="Report testing" />
     <MESSAGE value="cancel class testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="cancel class testing" />
+    <MESSAGE value="Attend class testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attend class testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Database_java$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1681823467295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

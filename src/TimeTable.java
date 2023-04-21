@@ -63,6 +63,8 @@ public class TimeTable {
                     return 81;
                 else if(selectOption==16)
                     return 82;
+                else
+                    System.out.println("Invalid Choice :(");
 
                 break;
 
@@ -121,6 +123,8 @@ public class TimeTable {
                     return 83;
                 else if(selectOption==16)
                     return 84;
+                else
+                    System.out.println("Invalid Choice :(");
 
                 break;
 
