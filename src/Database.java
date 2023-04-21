@@ -1292,7 +1292,7 @@ public class Database {
                 break;
 
             default:
-                System.out.println("\nMonth Doesnt Exist :(\n");
+                System.out.println("\nMonth Doesnt Exist :(\nOnly Month 1 and 2 is available\n\n");
                 Report.MonthlyReportView();
 
         }
@@ -1363,7 +1363,7 @@ public class Database {
                 break;
 
             default:
-                System.out.println("\nMonth Doesnt Exist :(\n");
+                System.out.println("\nMonth Doesnt Exist :(\n\nOnly Month 1 and 2 is available\n\n");
                 Report.ChampionReportView();
         }
 
