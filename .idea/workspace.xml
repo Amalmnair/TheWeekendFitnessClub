@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Report testing">
-      <change afterPath="$PROJECT_DIR$/Test/CancelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cancel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/CancelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CancelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReportTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TheWeekendFitnessClub" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CancelTest.test2cancelView">
     <configuration name="CancelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,11 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.seatAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CancelTest.test2cancelView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
-      <option name="METHOD_NAME" value="seatAvailable" />
+      <option name="MAIN_CLASS_NAME" value="CancelTest" />
+      <option name="METHOD_NAME" value="test2cancelView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelTest.test3cancelView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheWeekendFitnessClub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CancelTest" />
+      <option name="METHOD_NAME" value="test3cancelView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CancelTest.test2cancelView" />
+        <item itemvalue="JUnit.CancelTest.test3cancelView" />
         <item itemvalue="JUnit.ReportTest" />
         <item itemvalue="JUnit.CancelTest" />
         <item itemvalue="JUnit.ReportTest.monthlyReportView" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DatabaseTest.seatAvailable" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="9642000" />
+      <workItem from="1682033208211" duration="9951000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682096112114</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Report testing">
+      <created>1682103604358</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682103604358</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
