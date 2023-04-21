@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="timetable testing">
-      <change afterPath="$PROJECT_DIR$/Test/ReportTest.java" afterDir="false" />
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Report testing">
+      <change afterPath="$PROJECT_DIR$/Test/CancelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cancel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.SearchId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CancelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
-      <option name="METHOD_NAME" value="SearchId" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CancelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ReportTest" />
+        <item itemvalue="JUnit.CancelTest" />
         <item itemvalue="JUnit.ReportTest.monthlyReportView" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DatabaseTest.seatAvailable" />
-        <item itemvalue="JUnit.DatabaseTest.SearchId" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +142,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="5180000" />
+      <workItem from="1682033208211" duration="9642000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682066213152</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Report testing">
+      <created>1682096112114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682096112114</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +242,8 @@
     <MESSAGE value="Report Class for monthly review and monthly champion review" />
     <MESSAGE value="Testing Intial stage" />
     <MESSAGE value="timetable testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="timetable testing" />
+    <MESSAGE value="Report testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Database_java$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1681823467295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

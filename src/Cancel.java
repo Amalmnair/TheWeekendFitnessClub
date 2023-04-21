@@ -30,7 +30,7 @@ public class Cancel {
             cancelClass=idClassCode[optionCancel-1];
             // System.out.println(cancelClass + "\tHello");//
             Database.SelectCancelClass(cancelClass,id);
-            System.out.println("\nBooking Canceled :)\n");
+            //System.out.println("\nBooking Canceled :)\n");
 
             System.out.println("Do you want to Book Another Class?");
             System.out.println("1.Yes\n2.No\n");
