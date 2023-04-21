@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Report testing">
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="cancel class testing">
+      <change afterPath="$PROJECT_DIR$/Test/AttendTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/CancelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/CancelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +72,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CancelTest.test2cancelView">
-    <configuration name="CancelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AttendTest.test2attendView">
+    <configuration name="AttendTest.test1attendView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CancelTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AttendTest" />
+      <option name="METHOD_NAME" value="test1attendView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttendTest.test2attendView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TheWeekendFitnessClub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AttendTest" />
+      <option name="METHOD_NAME" value="test2attendView" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,20 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReportTest.test2championReportView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReportTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportTest.monthlyReportView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheWeekendFitnessClub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReportTest" />
-      <option name="METHOD_NAME" value="monthlyReportView" />
+      <option name="METHOD_NAME" value="test2championReportView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AttendTest.test2attendView" />
+        <item itemvalue="JUnit.AttendTest.test1attendView" />
+        <item itemvalue="JUnit.ReportTest.test2championReportView" />
         <item itemvalue="JUnit.CancelTest.test2cancelView" />
         <item itemvalue="JUnit.CancelTest.test3cancelView" />
-        <item itemvalue="JUnit.ReportTest" />
-        <item itemvalue="JUnit.CancelTest" />
-        <item itemvalue="JUnit.ReportTest.monthlyReportView" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="9951000" />
+      <workItem from="1682033208211" duration="11577000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682103604358</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cancel class testing">
+      <created>1682103945998</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682103945998</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +260,8 @@
     <MESSAGE value="Testing Intial stage" />
     <MESSAGE value="timetable testing" />
     <MESSAGE value="Report testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report testing" />
+    <MESSAGE value="cancel class testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="cancel class testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Database_java$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1681823467295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
