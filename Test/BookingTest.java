@@ -1,17 +1,32 @@
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class BookingTest {
 
     @Test
-    void bookView() {
+    void testbookView() {
+
+        ByteArrayInputStream userInput1 = new ByteArrayInputStream("3".getBytes());
+        System.setIn(userInput1);
+        Booking.BookView();
+        System.setIn(System.in);
+
     }
 
+
+
+
     @Test
-    void checkSeats() {
+    void testcheckSeats() {
+
+        Booking.CheckSeats();
+
     }
 
     @Test

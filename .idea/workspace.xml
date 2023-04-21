@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Main class testing">
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="booking class testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/BookingTest.java" afterDir="false" />
     </list>
@@ -72,10 +72,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookingTest.bookSeat">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.BookingTest.testbookView">
+    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,29 +92,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.checkSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="checkSeats" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.testbookSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="testbookSeat" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testmain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.testbookView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testmain" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="testbookView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookingTest.testbookView" />
+        <item itemvalue="JUnit.BookingTest" />
+        <item itemvalue="JUnit.BookingTest.checkSeats" />
+        <item itemvalue="JUnit.BookingTest.testbookSeat" />
         <item itemvalue="JUnit.BookingTest.bookSeat" />
-        <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testmain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +144,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="18662000" />
+      <workItem from="1682033208211" duration="19909000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -254,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682116313951</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="booking class testing">
+      <created>1682116617439</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682116617439</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,9 +297,9 @@
     <MESSAGE value="cancel class testing" />
     <MESSAGE value="Attend class testing" />
     <MESSAGE value="TimeTable class testing" />
-    <MESSAGE value="booking class testing" />
     <MESSAGE value="Main class testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main class testing" />
+    <MESSAGE value="booking class testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="booking class testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Database_java$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1681823467295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
