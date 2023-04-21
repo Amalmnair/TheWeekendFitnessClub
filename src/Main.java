@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        int choice;
+        int choice=0;
         do{
             System.out.println("\n\nThe Weekend Fitness Club (WFC)");
             System.out.println("_________________________________\n");
@@ -33,7 +33,7 @@ public class Main {
 
                 case 6:
                     System.out.println("\nThank you! :)\n\n");
-                    System.exit(0);
+//                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid Choice :(\n");
@@ -45,7 +45,7 @@ public class Main {
 
 
 
-        }while(true);
+        }while(choice!=6);
 
 
 
