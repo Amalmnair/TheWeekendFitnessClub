@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="booking class testing">
+    <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="booking testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,51 +73,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookingTest.testbookView">
-    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatabaseTest">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.bookSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.monthlyReportSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="bookSeat" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="monthlyReportSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.checkSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testaddSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="checkSeats" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testaddSeat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.testbookSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testattendClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="testbookSeat" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testattendClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.testbookView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testattendedFeedback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TheWeekendFitnessClub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="testbookView" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="testattendedFeedback" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookingTest.testbookView" />
-        <item itemvalue="JUnit.BookingTest" />
-        <item itemvalue="JUnit.BookingTest.checkSeats" />
-        <item itemvalue="JUnit.BookingTest.testbookSeat" />
-        <item itemvalue="JUnit.BookingTest.bookSeat" />
+        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.DatabaseTest.monthlyReportSelect" />
+        <item itemvalue="JUnit.DatabaseTest.testattendedFeedback" />
+        <item itemvalue="JUnit.DatabaseTest.testattendClass" />
+        <item itemvalue="JUnit.DatabaseTest.testaddSeat" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +145,7 @@
       <workItem from="1681774641004" duration="18000" />
       <workItem from="1681817048613" duration="4805000" />
       <workItem from="1681942231110" duration="889000" />
-      <workItem from="1682033208211" duration="19909000" />
+      <workItem from="1682033208211" duration="26108000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682116617439</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="booking testing">
+      <created>1682117919351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682117919351</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +307,8 @@
     <MESSAGE value="TimeTable class testing" />
     <MESSAGE value="Main class testing" />
     <MESSAGE value="booking class testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="booking class testing" />
+    <MESSAGE value="booking testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="booking testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Database_java$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1681823467295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
