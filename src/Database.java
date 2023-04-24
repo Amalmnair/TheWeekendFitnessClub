@@ -422,7 +422,7 @@ public class Database {
 
                     //Print the table
 
-                    PrintTable(db);//
+                    //PrintTable(db);//
                     //
                     System.out.println("\nBooking Confirmed :)\n");
                     break;
@@ -1064,7 +1064,7 @@ public class Database {
                 db[i][1] = "None";
                 db[i][5] = "Available";
                 addSeat(classCode);
-                PrintTable(db); //
+                //PrintTable(db); //
                 System.out.println("\nBooking Canceled :)\n");
                 break;
 
@@ -1222,7 +1222,7 @@ public class Database {
             if (Objects.equals(db[i][0], id)) {
                 db[i][5] = "Attended";
                 AttendedFeedback(db,i);
-                PrintTable(db); //
+               // PrintTable(db); //
                 System.out.println("\nThank you for Attending the  Class :)\n");
                 break;
             }
@@ -1399,16 +1399,16 @@ public class Database {
     }
 
 
-    static void PrintTable(String[][] db) {
-
-        System.out.println();
-        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tPrice\t\tReview\t\tRating");
-        System.out.println("------------------------------------------------------------------------------------------------------------");
-        for (String[] items : db) {
-            for (String item : items)
-                System.out.print(item + "\t\t");
-            System.out.println();
-        }
-    }
+//    static void PrintTable(String[][] db) {
+//
+//        System.out.println();
+//        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tPrice\t\tReview\t\tRating");
+//        System.out.println("------------------------------------------------------------------------------------------------------------");
+//        for (String[] items : db) {
+//            for (String item : items)
+//                System.out.print(item + "\t\t");
+//            System.out.println();
+////        }
+//    }
 
 }

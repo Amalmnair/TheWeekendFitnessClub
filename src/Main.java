@@ -20,7 +20,7 @@ public class Main {
                     break;
 
                 case 3:
-                    Attend.AttendView();//review
+                    Attend.AttendView();
                     break;
 
                 case 4:
