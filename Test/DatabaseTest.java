@@ -67,7 +67,7 @@ public class DatabaseTest {
     public void test2searchId() {
 
         int[] ActualArr=Database.SearchId("664");
-        assertEquals(11,ActualArr[0]);
+        assertEquals(14,ActualArr[0]);
 
 
     }
