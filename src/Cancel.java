@@ -28,15 +28,21 @@ public class Cancel {
             Database.SelectBookedOption(idClassCode);
             System.out.print("\nSelect the Booking to be Canceled:\t");
             optionCancel=sc.nextInt();
-            cancelClass=idClassCode[optionCancel-1];
-            Database.SelectCancelClass(cancelClass,id);
-            //System.out.println("\nBooking Canceled :)\n");
+            if (optionCancel<=0||optionCancel>=33)
+                System.out.println("\nInvalid Choice :(\n");
 
-            // Booking another Class
-            System.out.println("Do you want to Book Another Class?");
-            System.out.println("1.Yes\n2.No\n");
-            if(sc.nextInt()==1){
-                Booking.BookView();
+            else{
+
+                cancelClass=idClassCode[optionCancel-1];
+                Database.SelectCancelClass(cancelClass,id);
+                //System.out.println("\nBooking Canceled :)\n");
+
+                // Booking another Class
+                System.out.println("Do you want to Book Another Class?");
+                System.out.println("1.Yes\n2.No\n");
+                if(sc.nextInt()==1){
+                    Booking.BookView();
+                }
             }
 
         }

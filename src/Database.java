@@ -805,7 +805,7 @@ public class Database {
             }
             else if (idClassCode[i] == 13) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 1\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -829,7 +829,7 @@ public class Database {
             }
             else if (idClassCode[i] == 23) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 2\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -853,7 +853,7 @@ public class Database {
             }
             else if (idClassCode[i] == 33) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 3\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -877,7 +877,7 @@ public class Database {
             }
             else if (idClassCode[i] == 43) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 4\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -901,7 +901,7 @@ public class Database {
             }
             else if (idClassCode[i] == 53) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 5\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -925,7 +925,7 @@ public class Database {
             }
             else if (idClassCode[i] == 63) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 6\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -949,7 +949,7 @@ public class Database {
             }
             else if (idClassCode[i] == 73) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 7\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -973,7 +973,7 @@ public class Database {
             }
             else if (idClassCode[i] == 83) {
 
-                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\tZumba\t\t7:00AM\t\t4");
+                System.out.println((i + 1) + "\t\t\tWeek 8\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
                 i++;
                 continue;
             }
@@ -1329,10 +1329,6 @@ public class Database {
         System.out.println("\nNumber of Customers Attended:\t"+noCustomers+"\nAverage Rating of the Class:\t"+avgRating+"\n");
 
     }
-
-
-
-//
 
     static void ChampionReportSelect(int month){
 
