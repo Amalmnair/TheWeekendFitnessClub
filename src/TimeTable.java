@@ -8,7 +8,10 @@ public class TimeTable {
 
         switch (dayChoice){
 
+            //Timetable by Day
+
             case 1:
+                //Saturday
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("---------------------------------------------------------------------------");
                 System.out.println("1\t\t\tWeek 1\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
@@ -69,6 +72,7 @@ public class TimeTable {
                 break;
 
             case 2:
+                //Sunday
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("---------------------------------------------------------------------------");
                 System.out.println("1\t\t\tWeek 1\t\tSunday\t\t\tZumba\t\t\t7:00AM\t\t4");
@@ -142,7 +146,10 @@ public class TimeTable {
 
         switch (fitChoice){
 
+            //Timetable by Class
+
             case 1:
+                //Yoga
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("---------------------------------------------------------------------------");
                 System.out.println("1\t\t\tWeek 1\t\tSaturday\t\tYoga\t\t7:00AM\t\t2");
@@ -177,6 +184,7 @@ public class TimeTable {
                 break;
 
             case 2:
+                //Box Fit
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("---------------------------------------------------------------------------");
                 System.out.println("1\t\t\tWeek 1\t\tSaturday\t\tBox Fit\t\t10:00AM\t\t3");
@@ -211,6 +219,7 @@ public class TimeTable {
                 break;
 
             case 3:
+                //Zumba
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("---------------------------------------------------------------------------");
                 System.out.println("1\t\t\tWeek 1\t\tSunday\t\t\tZumba\t\t7:00AM\t\t4");
@@ -245,6 +254,7 @@ public class TimeTable {
                 break;
 
             case 4:
+                //Aquacise
                 System.out.println("\nOption\t\tWeek\t\tDay\t\t\t\tClass\t\tTime\t\tPrice(GBP)");
                 System.out.println("1\t\t\tWeek 1\t\tSunday\t\t\tAquacise\t\t10:00AM\t\t5");
                 System.out.println("2\t\t\tWeek 2\t\tSunday\t\t\tAquacise\t\t10:00AM\t\t5");
