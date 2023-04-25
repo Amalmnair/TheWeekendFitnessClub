@@ -6,6 +6,8 @@ public class Cancel {
 
     static void CancelView() {
 
+        // Cancelling a class
+        // Taking ID of user
         Scanner sc=new Scanner(System.in);
         String id;
         int[] idClassCode;
@@ -16,11 +18,13 @@ public class Cancel {
         System.out.println("Enter your details\n");
         System.out.print("ID:\t");
         id=sc.nextLine();
+        // Checking for booked classes
         idClassCode=Database.SearchId(id);
 
         if(idClassCode[0]==0)
             System.out.println("\nNo Booking Found :(\n");
         else{
+            // Cancelling
             Database.SelectBookedOption(idClassCode);
             System.out.print("\nSelect the Booking to be Canceled:\t");
             optionCancel=sc.nextInt();
@@ -28,6 +32,7 @@ public class Cancel {
             Database.SelectCancelClass(cancelClass,id);
             //System.out.println("\nBooking Canceled :)\n");
 
+            // Booking another Class
             System.out.println("Do you want to Book Another Class?");
             System.out.println("1.Yes\n2.No\n");
             if(sc.nextInt()==1){
