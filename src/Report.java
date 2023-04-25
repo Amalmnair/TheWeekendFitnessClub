@@ -4,6 +4,7 @@ public class Report {
 
     static void MonthlyReportView(){
 
+        // Monthly Report
         int month;
         Scanner sc=new Scanner(System.in);
 
@@ -17,6 +18,7 @@ public class Report {
 
     static void ChampionReportView(){
 
+        // Monthly Champion Report
         int month;
         Scanner sc=new Scanner(System.in);
 
