@@ -4,6 +4,8 @@ public class Attend {
 
     static void AttendView() {
 
+        //Attending the class
+        // taking User ID
         Scanner sc=new Scanner(System.in);
         String id;
         int[] idClassCode;
@@ -14,6 +16,7 @@ public class Attend {
         System.out.println("Enter your details\n");
         System.out.print("ID:\t");
         id=sc.nextLine();
+        // Checking for booked classes
         idClassCode=Database.SearchId(id);
 
         if(idClassCode[0]==0)
@@ -23,7 +26,7 @@ public class Attend {
             System.out.print("\nSelect the Class You Attended:\t");
             optionAttend=sc.nextInt();
             attendClass=idClassCode[optionAttend-1];
-            // System.out.println(cancelClass + "\tHello");//
+            // Attending
             Database.SelectAttendClass(attendClass,id);
 
 
