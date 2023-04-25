@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb42d52f-38c3-4fe2-abf5-9cded41b2625" name="Changes" comment="Final Touch Corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
       <workItem from="1682208966201" duration="470000" />
       <workItem from="1682279447422" duration="341000" />
       <workItem from="1682331807880" duration="489000" />
-      <workItem from="1682344617755" duration="14447000" />
+      <workItem from="1682344617755" duration="15512000" />
     </task>
     <task id="LOCAL-00001" summary="Main Function and Menu">
       <created>1681771380834</created>
@@ -349,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682407895338</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Final Touch Corrections">
+      <created>1682409203274</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682409203274</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
