@@ -18,9 +18,6 @@ public class Cancel {
         id=sc.nextLine();
         idClassCode=Database.SearchId(id);
 
-        //  for(int i=0;i<32;i++)//
-        // System.out.print("\t"+idClassCode[i]);//
-
         if(idClassCode[0]==0)
             System.out.println("\nNo Booking Found :(\n");
         else{
@@ -28,7 +25,6 @@ public class Cancel {
             System.out.print("\nSelect the Booking to be Canceled:\t");
             optionCancel=sc.nextInt();
             cancelClass=idClassCode[optionCancel-1];
-            // System.out.println(cancelClass + "\tHello");//
             Database.SelectCancelClass(cancelClass,id);
             //System.out.println("\nBooking Canceled :)\n");
 

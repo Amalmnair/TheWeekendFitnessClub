@@ -4,7 +4,8 @@ public class Booking {
 
     static int classCode;
     static void BookView() {
-
+        // Booking of Class
+        // Selecting the class
         Scanner sc=new Scanner(System.in);
         int classChoice,dayChoice,fitChoice;
         System.out.println("\nBook a Group Fitness Lesson");
@@ -13,12 +14,14 @@ public class Booking {
         System.out.println("1. Day\n2. Fitness Type\n");
         classChoice = sc.nextInt();
         if (classChoice == 1) {
+            // By Day
             System.out.println("\nChoose Day");
             System.out.println("1. Saturday\n2. Sunday\n");
             dayChoice = sc.nextInt();
             classCode=TimeTable.TimetableDay(dayChoice);
             CheckSeats();
         } else if (classChoice == 2) {
+            // By Class
             System.out.println("\nChoose Class");
             System.out.println("1. Yoga\n2. Box Fit\n3. Zumba\n4. Aquacise\n");
             fitChoice = sc.nextInt();
@@ -30,6 +33,7 @@ public class Booking {
 
     static void CheckSeats(){
 
+        // checking seat availability
         int seatLeft;
         seatLeft=Database.SeatAvailable(classCode);
         if (seatLeft<=0)
@@ -43,6 +47,8 @@ public class Booking {
 
     static void BookSeat(){
 
+        // if seat available
+        // booking
         String name,id;
         Scanner sc=new Scanner(System.in);
 
