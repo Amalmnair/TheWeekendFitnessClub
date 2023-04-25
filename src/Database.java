@@ -1,16 +1,17 @@
-import java.lang.reflect.Array;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Database {
 
+    //Seat Count variables
     static int s11 = 0, s12 = 5, s13 = 2, s14 = 0, s21 = 1, s22 = 3, s23 = 3, s24 = 1, s31 = 5, s32 = 4, s33 = 4, s34 = 0, s41 = 0, s42 = 3, s43 = 0, s44 = 2, s51 = 4, s52 = 3, s53 = 1, s54 = 5, s61 = 4, s62 = 2, s63 = 2, s64 = 3, s71 = 2, s72 = 5, s73 = 4, s74 = 2, s81 = 1, s82 = 0, s83 = 0, s84 = 5;
 
+    //Database
     static String[][] d11 = {
-            {"664", "Jordanna", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"366", "Amabelle", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"396", "Bonni", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
-            {"359", "Patrice", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
+            {"664", "Jordanna", "Yoga", "Saturday", "7:00AM", "Attended", "2","Good Work","5"},
+            {"366", "Amabelle", "Yoga", "Saturday", "7:00AM", "Attended", "2","not bad","4"},
+            {"396", "Bonni", "Yoga", "Saturday", "7:00AM", "Attended", "2","nice","5"},
+            {"359", "Patrice", "Yoga", "Saturday", "7:00AM", "Attended", "2","Bad trainer","3"},
             {"953", "Ryon", "Yoga", "Saturday", "7:00AM", "Booked", "2","None","0"},
     };
 
@@ -22,16 +23,16 @@ public class Database {
             {"0", "None", "Box Fit", "Saturday", "10:00AM", "Available", "3","None","0"},
     };
     static String[][] d13 = {
-            {"111", "Wilbert", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
-            {"430", "Terrel", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
+            {"111", "Wilbert", "Zumba", "Sunday", "7:00AM", "Attended", "4","not so good","3"},
+            {"430", "Terrel", "Zumba", "Sunday", "7:00AM", "Attended", "4","okay","4"},
             {"657", "Desiree", "Zumba", "Sunday", "7:00AM", "Booked", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
             {"0", "None", "Zumba", "Sunday", "7:00AM", "Available", "4","None","0"},
     };
 
     static String[][] d14 = {
-            {"149", "Janey", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
-            {"385", "Codie", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
+            {"149", "Janey", "Aquacise", "Sunday", "10:00AM", "Attended", "5","good","5"},
+            {"385", "Codie", "Aquacise", "Sunday", "10:00AM", "Attended", "5","super","5"},
             {"664", "Jordanna", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
             {"366", "Amabelle", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
             {"396", "Bonni", "Aquacise", "Sunday", "10:00AM", "Booked", "5","None","0"},
@@ -264,6 +265,7 @@ public class Database {
 
     static int SeatAvailable(int classCode) {
 
+        // checking seat count
         if (classCode == 11)
             return s11;
         else if (classCode == 12)
@@ -333,7 +335,8 @@ public class Database {
     }
 
     static void SelectBookingClass(String name, String id, int classCode) {
-//
+
+        //Passing the selected class
         if (classCode == 11)
             AddBooking(name, id, d11, 11);
         else if (classCode == 12)
@@ -402,6 +405,8 @@ public class Database {
     }
 
     static void AddBooking(String name, String id, String[][] db, int classCode) {
+
+        //Booking the class
         int already = 0;
         for (int i = 0; i < 5; i++) {
             if (Objects.equals(db[i][0], id)) {
@@ -421,12 +426,11 @@ public class Database {
                     removeSeat(classCode);
 
                     //Print the table
-
                     //PrintTable(db);//
-                    //
+
                     System.out.println("\nBooking Confirmed :)\n");
                     break;
-                } else continue;
+                }
 
 
             }
@@ -440,6 +444,7 @@ public class Database {
 
     static void removeSeat(int classCode){
 
+        //Decrementing seat count after booking
         if(classCode==11)
             s11--;
         else if(classCode==12)
@@ -511,6 +516,7 @@ public class Database {
 
     static int[] SearchId(String id) {
 
+        //Searching for the classes by User ID
         int[] idClassCode = new int[32];
         int found = 0, i;
 
@@ -777,6 +783,7 @@ public class Database {
 
     static void SelectBookedOption(int[] idClassCode) {
 
+        //Selecting Option from the Booked class
         int i = 0;
 
         System.out.println("\nYour Bookings\n");
@@ -985,6 +992,7 @@ public class Database {
 
     static void SelectCancelClass(int cancelClass, String id) {
 
+        // Passing the Selected Class
         if (cancelClass == 11)
             CancelClass(d11, id,11);
         else if (cancelClass == 12)
@@ -1056,8 +1064,8 @@ public class Database {
 
     static void CancelClass(String[][] db, String id,int classCode) {
 
+        //Cancelling the Class
         for (int i=0;i<5;i++) {
-            //System.out.println("HEYYYY\t"+id+"\t"+db[i][0]);//
             if (Objects.equals(db[i][0], id)) {
 
                 db[i][0] = "0";
@@ -1077,7 +1085,7 @@ public class Database {
 
     static void addSeat(int classCode){
 
-
+        //Incrementing Seat count after Cancelling a class
         if(classCode==11)
             s11++;
         else if(classCode==12)
@@ -1147,6 +1155,7 @@ public class Database {
 
     static void SelectAttendClass(int attendClass, String id) {
 
+        //Passing selected class
         if (attendClass == 11)
             AttendClass(d11, id);
         else if (attendClass == 12)
@@ -1218,9 +1227,11 @@ public class Database {
 
     static void AttendClass(String[][] db, String id) {
 
+        //Attending the Class
         for (int i=0;i<5;i++) {
             if (Objects.equals(db[i][0], id)) {
                 db[i][5] = "Attended";
+                //Feedback and rating
                 AttendedFeedback(db,i);
                // PrintTable(db); //
                 System.out.println("\nThank you for Attending the  Class :)\n");
@@ -1232,6 +1243,7 @@ public class Database {
 
     static void AttendedFeedback(String[][] db,int i){
 
+        //Feedback and rating
         String feedback;
         int rating;
         Scanner sc=new Scanner(System.in);
@@ -1252,6 +1264,7 @@ public class Database {
 
     static void MonthlyReportSelect(int month){
 
+        //Selecting the month and passing the classes
         switch (month){
 
             case 1:
@@ -1302,6 +1315,7 @@ public class Database {
 
     static void MonthlyReport(String[][] db){
 
+        //Monthly Report
         int noCustomers=0;
         float avgRating=0;
         System.out.println(db[0][2]);
@@ -1322,6 +1336,7 @@ public class Database {
 
     static void ChampionReportSelect(int month){
 
+        //Selecting the month for champion report
         int highIncome=0,yogaIncome=0,boxfitIncome=0,zumbaIncome=0,aquaciseIncome=0;
 
 
@@ -1388,6 +1403,7 @@ public class Database {
 
     static int ChampionReport(String[][] db){
 
+        // Calculating the Income
         int noCustomers=0;
         for(int i=0;i<5;i++){
             if(db[i][5]=="Attended"){
@@ -1399,16 +1415,27 @@ public class Database {
     }
 
 
-//    static void PrintTable(String[][] db) {
-//
-//        System.out.println();
-//        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tPrice\t\tReview\t\tRating");
-//        System.out.println("------------------------------------------------------------------------------------------------------------");
-//        for (String[] items : db) {
-//            for (String item : items)
-//                System.out.print(item + "\t\t");
-//            System.out.println();
-////        }
-//    }
+
+
+/*
+
+    This Code was used for testing the working of the system and is commented for future reuse
+
+
+    static void PrintTable(String[][] db) {
+
+        System.out.println();
+        System.out.println("\nID\t\tName\t\tClass\t\t\tDay\t\t\tTime\t\tStatus\t\tPrice\t\tReview\t\tRating");
+        System.out.println("------------------------------------------------------------------------------------------------------------");
+        for (String[] items : db) {
+            for (String item : items)
+                System.out.print(item + "\t\t");
+            System.out.println();
+        }
+
+  }
+*/
+
+
 
 }
